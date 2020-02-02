@@ -2,11 +2,20 @@ import { rgbToHex } from "@material-ui/core";
 
 export const styles = theme => ({
     displayFlex: {
-        display: 'flex'
+        display: 'flex',
+        marginBottom: '8px',
+        width: '100%'
     },
     searchForm: {
-        padding: '4px 12x',
+        padding: '5px 15x',
         display: 'flex',
+    },
+    selectLabel: {
+        position: 'relative',
+        marginRight: '15px',
+        top: '5px',
+        fontSize: '12px',
+        fontWeight: 400
     },
     inputCard: {
         padding: '12px'
@@ -14,13 +23,16 @@ export const styles = theme => ({
     inputTitle: {
         fontWeigth: 900,
         color: 'rgb(40,40,40)',
-        paddingBottom: '5px',
+        paddingBottom: '10px',
         width: '100%'
     },
-    inputTextField: {
+    selectOptions: {
         width: '100px',
-        padding: '0px',
-        marginRight: '15px'
+        paddingLeft: '3px',
+        fontSize: '12px'
+    },
+    selectOptionButton: {
+        position: 'relative',
+        top: '2px'
     }
-
 })

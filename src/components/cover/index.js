@@ -21,10 +21,6 @@ class Cover extends React.Component {
 
     constructor(props) {
         super(props);
-        console.log(styles)
-        console.log(MenuIcon)
-        console.log(Drawer)
-        console.log(clsx)
     }
     
     state = {
@@ -47,9 +43,6 @@ class Cover extends React.Component {
     render() {
         const { open } = this.state
         const { classes, theme } = this.props
-        console.log(classes)
-        console.log(theme)
-        console.log(this.props)
         return (
             <div className={classes.root}>
                 <AppBar
